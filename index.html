@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Woodworks</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+<!-- Support for HTML5 -->
+<!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section class="home">
+  <div class="container">
+    <nav class="navbar navbar-inverse">
+      <div class="navbar-header"> <a class="navbar-brand" href="#"><img src="assets/images/logo.png" class="img-responsive"></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Creating Identities with Twist</h1>
+  </div>
+</section>
+<section class="about">
+  <div class="container">
+    <div class="col-md-7">
+      <h1>About Us</h1>
+      <p>Woodworks interiors is an interior design firm, concerned and sensitive to the physical context of a project and its cultural
+        milieu, located in the heart of Dubai.</p>
+      <p>We are the leading experts and a one stop solution for all your interior design needs. From concept to implementation, from paper to the
+        walls, there is no one who does it better. Woodworks core competence lies in building up the most modem and ethnic design for your
+        environment. We handle corporate offices, showrooms, warehouses, private villas, restaurants, health clubs. According to the client's
+        requirements our team is committed to provide solutions for all your building needs. With our in house designs, technical and field capabilities,
+        space pattern can ensure that your project is executed to the high quality standards that you expect from market leader.</p>
+    </div>
+    <div class="col-md-5"> <img src="assets/images/about_us.jpg" class="img-responsive"> </div>
+  </div>
+</section>
+<section class="how">
+  <div class="pull-left left-how"></div>
+  <div class="pull-right right-how"></div>
+  <div class="how_content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8"> <img src="assets/images/how_it_banner.jpg" class="img-responsive"> </div>
+        <div class="col-md-4">
+          <h1>How it began</h1>
+          <p>Woodworks started off as a 2-dimensional design studio to service the advertising industry. However, as the needs of the clients started to evolve, our services also needed to take up new challenges. This led to 3-dimensional designing solutions for exhibition stands, POS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="services">
+  <div class="container">
+    <div class="col-md-7">
+      <h1>Services</h1>
+      <p>Managed from over 7000 Sq Ft of workshop space in Dubai Investment.</p>
+      <p>Park Woodworks provide intervior design services to the following:</p>
+      <ul>
+        <li>Corporate: <span>Offices</span></li>
+        <li>Retail: <span>Shops, Showrooms, Kiosks & POS material</span></li>
+        <li>Service Industry: <span>Hotels, Restaurants, Club & Lounges</span></li>
+        <li>Events: <span>Exhibition stands, Trade Shows, Road Shows, Corporate Events</span></li>
+      </ul>
+    </div>
+    <div class="col-md-5"> </div>
+  </div>
+</section>
+<section class="clients">
+  <div class="container">
+    <h1>Clients</h1>
+    <div class="owl-carousel">
+      <div><img src="assets/images/clients/3m.jpg"> </div>
+      <div><img src="assets/images/clients/damax.jpg"> </div>
+      <div><img src="assets/images/clients/disney.jpg"> </div>
+      <div><img src="assets/images/clients/lg.jpg"> </div>
+      <div><img src="assets/images/clients/panasonic.jpg"> </div>
+      <div><img src="assets/images/clients/3m.jpg"> </div>
+      <div><img src="assets/images/clients/damax.jpg"> </div>
+      <div><img src="assets/images/clients/disney.jpg"> </div>
+      <div><img src="assets/images/clients/lg.jpg"> </div>
+      <div><img src="assets/images/clients/panasonic.jpg"> </div>
+    </div>
+  </div>
+</section>
+<section class="work">
+  <div class="container">
+    <div class="col-md-5">
+      <h1>Work</h1>
+      <ul>
+        <li>Offices</li>
+        <li>Children's Bedrooms</li>
+        <li>Home Decor</li>
+        <li>Exhibition Stands</li>
+        <li>Promotion Display</li>        
+        <li>Showrooms & Shops</li>                
+        <li>Venue Decor for Events</li>                        
+        <li>POS Material</li>                                
+        <li>Product Display</li>                                        
+      </ul>
+    </div>
+    <div class="col-md-5"> </div>
+  </div>
+</section>
+<footer>
+	<div class="container">
+    	<div class="text-center">
+        	<img src="assets/images/footer_logo.png"><br>
+            Copyright 2017 | All Rights Reserved
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+	navText : ["<i class='glyphicon glyphicon-chevron-left'></i>","<i class='glyphicon glyphicon-chevron-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+});
+</script>
+</body>
+</html>
