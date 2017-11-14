@@ -14,6 +14,7 @@ section {
 }
 section.home {
 	background:url(../images/home_banner.jpg);
+	background-size: contain;
 }
 section.home h1 {
 	color:#fff;
@@ -29,7 +30,7 @@ section.home h1 {
 	position:relative;
 }
 .navbar-brand {
-	padding: 30px 15px;
+	padding: 20px 15px;
 }
 .navbar-toggle {
 	display: block;
