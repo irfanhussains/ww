@@ -22,7 +22,7 @@ section.home h1 {
 	margin: 240px 0 0 0;
 }
 .navbar-inverse {
-	background-color: transparent;
+	background-color:#D53D16;
 	border-color: transparent;
 }
 .navbar-header {
@@ -31,11 +31,12 @@ section.home h1 {
 }
 .navbar-brand {
 	padding: 20px 15px;
+	height:auto;
 }
 .navbar-toggle {
 	display: block;
 	margin-right:0;
-	margin-top:70px;
+	margin-top:62px;
 }
 .navbar-toggle .icon-bar {
 	display: block;
