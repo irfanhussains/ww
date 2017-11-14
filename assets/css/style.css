@@ -14,7 +14,7 @@ section {
 }
 section.home {
 	background:url(../images/home_banner.jpg);
-	background-size: contain;
+	background-size: cover;
 }
 section.home h1 {
 	color:#fff;
@@ -22,7 +22,7 @@ section.home h1 {
 	margin: 240px 0 0 0;
 }
 .navbar-inverse {
-	background-color:#D53D16;
+	background-color:transparent;
 	border-color: transparent;
 }
 .navbar-header {
