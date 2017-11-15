@@ -250,3 +250,15 @@ footer{
 	color:#CFB896;
 	font-size:11px;
 }
+.inner_container{
+	background:rgba(255,255,255,0.9);
+	padding:15px;
+	margin:15px 0;
+}
+/*-about_details*/
+.about_detail{
+	background:url(../images/about_detail.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	height:auto;
+}
