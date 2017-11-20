@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
 	font-family:"Times New Roman", Times, serif;
 	font-size:14px;
@@ -59,6 +60,7 @@ section.home h1 {
 	background: #101010;
 	position: absolute;
 	right: 0;
+	z-index:10;
 }
 .navbar-collapse.collapse {
 	display: none!important;
@@ -254,6 +256,19 @@ footer{
 	background:rgba(255,255,255,0.9);
 	padding:15px;
 	margin:15px 0;
+	position:relative;
+}
+.inner_container h1{
+		color:#C8A27E;
+}
+.inner_container h2{
+		color:#E79C3F;
+		padding-bottom:15px;
+		border-bottom: #C8A27E 1px solid;
+}
+.inner_container p {
+	color:#6A5A4D;
+	font-family: 'Montserrat', sans-serif;
 }
 /*-about_details*/
 .about_detail{
