@@ -79,6 +79,11 @@ section.home h1 {
 }
 .about {
 	padding:60px 0;
+		background:url(../images/about_bg.png) left no-repeat;
+		background-size:contain;
+}
+.about .container{
+
 }
 .about h1 {
 	font-size:80px;
@@ -276,4 +281,16 @@ footer{
 	background-size:cover;
 	background-attachment:fixed;
 	height:auto;
+}
+@media (max-width: 768px){
+	section{
+		height:auto;
+	}
+	h1:after, h1:before{
+		display:none;
+	}
+	.how_content {
+    position: relative;
+	background:url(../images/how_bg_right.png);
+	}
 }
