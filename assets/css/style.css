@@ -36,12 +36,13 @@ section.home h1 {
 	position:relative;
 }
 .navbar-brand {
-	padding: 20px 15px;
+	padding: 0;
 	height:auto;
-	background:rgba(0,0,0,0.5);
+	margin:20px 0 0 0;
+	
 }
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
-		background:rgba(0,0,0,0.5);
+		background:none;
 }
 .navbar-toggle {
 	display: block;
@@ -224,6 +225,9 @@ footer{
 	background:#9D8056;
 	color:#CFB896;
 	font-size:11px;
+}
+footer .img-responsive{
+	display:inline-block;
 }
 .inner_container{
 	background:rgba(255,255,255,0.9);
