@@ -6,9 +6,11 @@ body {
 }
 h1 {
 	font-size:72px;
+		font-family: 'Montserrat', sans-serif;
 }
 p {
 	font-size:20px;
+	text-align:justify;
 }
 section {
 	height:100vh
@@ -20,7 +22,10 @@ section.home {
 section.home h1 {
 	color:#fff;
 	text-align:center;
-	margin: 240px 0 0 0;
+	font-size:56px;
+	padding:10px 0;
+	margin: 200px 0 0 0;
+		background:rgba(0,0,0,0.5);
 }
 .navbar-inverse {
 	background-color:transparent;
@@ -33,6 +38,10 @@ section.home h1 {
 .navbar-brand {
 	padding: 20px 15px;
 	height:auto;
+	background:rgba(0,0,0,0.5);
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+		background:rgba(0,0,0,0.5);
 }
 .navbar-toggle {
 	display: block;
@@ -89,19 +98,12 @@ section.home h1 {
 	font-size:80px;
 	color:#C8A27E;
 	margin-bottom:90px;
-}
-.about h1:after {
-	border:3px #EFECE5 solid;
-	position:absolute;
-	content:"";
-	width:320px;
-	height:170px;
-	z-index: 0;
-	left: 72px;
-	top: -20px;
+	border-bottom:3px #C8A27E solid;
+
 }
 .about p {
 	color:#6A5A4D;
+
 }
 .how {
 	position:relative;
@@ -126,20 +128,11 @@ section.home h1 {
 	text-align: right;
 	color: #fff;
 	margin: 90px 0 20px 0;
-}
-.how_content h1:before {
-	border:3px #EFECE5 solid;
-	position:absolute;
-	content:"";
-	width:320px;
-	height:170px;
-	z-index: 0;
-	right: 0;
-	top: 0;
+	border-bottom:3px #fff solid;
 }
 .how_content p {
 	color:#E8CB87;
-	text-align:right;
+	text-align:justify;
 }
 .services {
 	background:url(../images/services_banner.jpg) right bottom no-repeat;
@@ -149,19 +142,11 @@ section.home h1 {
 	font-size:80px;
 	color:#E79C3F;
 	margin-bottom:90px;
-}
-.services h1:after {
-	border:3px #EFECE5 solid;
-	position:absolute;
-	content:"";
-	width:320px;
-	height:170px;
-	z-index: 0;
-	left: 56px;
-	top: -20px;
+	border-bottom:3px #EFECE5 solid;
 }
 .services p {
 	color:#E79C3F;
+	text-align:justify;
 }
 .services ul {
 	color:#E79C3F;
@@ -185,16 +170,7 @@ section.home h1 {
 	margin-bottom:90px;
 	text-align:center;
 	position:relative;
-}
-.clients h1:after {
-	border:3px #4B3E35 solid;
-	position:absolute;
-	content:"";
-	width:320px;
-	height:170px;
-	z-index: 0;
-	right: 310px;
-	top: -33px;
+	border-bottom:3px #fff solid;
 }
 .owl-carousel .owl-stage {
   display: flex;
@@ -226,19 +202,11 @@ section.home h1 {
 	font-size:80px;
 	color:#E79C3F;
 	margin-bottom:90px;
-}
-.work h1:after {
-	border:3px #EFECE5 solid;
-	position:absolute;
-	content:"";
-	width:320px;
-	height:170px;
-	z-index: 0;
-	left: 82px;
-	top: -20px;
+	border-bottom:3px #E79C3F solid;
 }
 .work p {
 	color:#E79C3F;
+	text-align:justify;
 }
 .work ul {
 	color:#E79C3F;
