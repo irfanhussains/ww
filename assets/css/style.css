@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
-	font-family:"Times New Roman", Times, serif;
+		font-family: 'Montserrat', sans-serif;
 	font-size:14px;
 	color:#000;
 }
 h1 {
 	font-size:72px;
-		font-family: 'Montserrat', sans-serif;
+
 }
 p {
 	font-size:20px;
@@ -56,18 +56,21 @@ section.home h1 {
 	border-radius: 0;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-	background-color: #000;
+	background-color: #EA6408;
 }
 .navbar-inverse .navbar-toggle {
-	border-color: transparent;
+	border-color: #fff;
+	background:#fff;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-	background-color: transparent;
+	border-color: #fff;
+	background:#fff;
 }
 .navbar-collapse {
 	float:right;
 	width:280px;
 	background: #101010;
+		border: 1px #EA6408 solid;
 	position: absolute;
 	right: 0;
 	z-index:10;
@@ -97,9 +100,9 @@ section.home h1 {
 }
 .about h1 {
 	font-size:80px;
-	color:#C8A27E;
+	color:#EA6408;
 	margin-bottom:90px;
-	border-bottom:3px #C8A27E solid;
+	border-bottom:3px #EA6408 solid;
 
 }
 .about p {
@@ -141,16 +144,16 @@ section.home h1 {
 }
 .services h1 {
 	font-size:80px;
-	color:#E79C3F;
+	color:#EA6408;
 	margin-bottom:90px;
-	border-bottom:3px #EFECE5 solid;
+	border-bottom:3px #EA6408 solid;
 }
 .services p {
-	color:#E79C3F;
+	color:#EA6408;
 	text-align:justify;
 }
 .services ul {
-	color:#E79C3F;
+	color:#EA6408;
 	font-size:20px;
 	font-weight:bold;
 	list-style:square;
@@ -201,16 +204,16 @@ section.home h1 {
 }
 .work h1 {
 	font-size:80px;
-	color:#E79C3F;
+	color:#EA6408;
 	margin-bottom:90px;
-	border-bottom:3px #E79C3F solid;
+	border-bottom:3px #EA6408 solid;
 }
 .work p {
-	color:#E79C3F;
+	color:#EA6408;
 	text-align:justify;
 }
 .work ul {
-	color:#E79C3F;
+	color:#EA6408;
 	font-size:20px;
 	font-weight:bold;
 	list-style:square;
@@ -222,7 +225,7 @@ section.home h1 {
 }
 footer{
 	padding:30px 0;
-	background:#9D8056;
+	background:#EA6408;
 	color:#CFB896;
 	font-size:11px;
 }
@@ -236,12 +239,12 @@ footer .img-responsive{
 	position:relative;
 }
 .inner_container h1{
-		color:#C8A27E;
+		color:#EA6408;
 }
 .inner_container h2{
-		color:#E79C3F;
+		color:#000;
 		padding-bottom:15px;
-		border-bottom: #C8A27E 1px solid;
+		border-bottom: #000 1px solid;
 }
 .inner_container p {
 	color:#6A5A4D;
