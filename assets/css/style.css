@@ -140,7 +140,7 @@ section.home h1 {
 }
 .services {
 	background:url(../images/services_banner.jpg) right bottom no-repeat;
-	padding:200px 0;
+	padding:150px 0;
 }
 .services h1 {
 	font-size:80px;
@@ -226,7 +226,7 @@ section.home h1 {
 footer{
 	padding:30px 0;
 	background:#EA6408;
-	color:#CFB896;
+	color:#FFF;
 	font-size:11px;
 }
 footer .img-responsive{
