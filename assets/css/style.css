@@ -278,12 +278,12 @@ footer .img-responsive{
 		font-weight:700;
 }
 .inner_container h2{
-		color:#000;
+		color:#fff;
 		padding-bottom:15px;
-		border-bottom: #000 1px solid;
+		border-bottom: #fff 1px solid;
 }
 .inner_container p {
-	color:#6A5A4D;
+	color:#fff;
 	font-family: 'Montserrat', sans-serif;
 }
 /*-about_details*/
