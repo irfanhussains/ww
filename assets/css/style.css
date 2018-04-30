@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+@font-face {
+font-family: 'Tw Cen MT';
+font-style: normal;
+font-weight: normal;
+src: local('Tw Cen MT'), url('../fonts/Tw Cen MT.woff') format('woff');
+}
 body {
-		font-family: 'Montserrat', sans-serif;
+/*		font-family: 'Montserrat', sans-serif;*/
+	font-family:'Tw Cen MT';
 	font-size:14px;
 	color:#000;
 }
@@ -162,7 +169,7 @@ font-size: 72px;
 }
 .about p {
 	    color: #fff;
-    font-size: 14px;
+
 
 }
 .how {
@@ -304,7 +311,7 @@ footer .img-responsive{
 }
 .inner_container p {
 	color:#fff;
-	font-family: 'Montserrat', sans-serif;
+
 }
 /*-about_details*/
 .about_detail{
@@ -327,7 +334,7 @@ footer .img-responsive{
 }
 .project_detail p{
 	color:#fff;
-	font-size:14px;
+	font-size:18px;
 	margin-bottom:10px;
 }
 .project_detail img{
@@ -341,7 +348,7 @@ footer .img-responsive{
 	height:auto;
 }
 .career_detail .inner{
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,0.2);
     margin-top: 150px;
     padding: 20px;
 
@@ -356,7 +363,7 @@ footer .img-responsive{
 	height:auto;
 }
 .contant_detail .inner{
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.2);
     padding: 20px;
 	text-align:right;
 
@@ -399,7 +406,7 @@ footer .img-responsive{
     font-size: 14px;
     line-height: 1.42857143;
     color: #fff;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.2);
     /* background-image: none; */
     border:0;
     border-radius: 0;
@@ -407,7 +414,7 @@ footer .img-responsive{
 }
 .contant_detail .btn-primary {
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.2);
     border-color: transparent;
     border-radius: 0;
 }
