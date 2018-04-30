@@ -80,6 +80,7 @@ section.home h1 {
 	position:absolute;
 	top:50%;
 	width:100%;
+	text-shadow: 0 0 10px #000;
 }
 .navbar-inverse {
 	background-color:transparent;
@@ -319,7 +320,7 @@ footer .img-responsive{
 
 }
 .project_detail{
-	background:url(../images/home_banner5.jpg);
+	background:url(../images/home_banner5_blur.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	height:auto;
