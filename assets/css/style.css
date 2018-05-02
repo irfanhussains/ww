@@ -87,7 +87,7 @@ section.home h1 {
 	position:absolute;
 	top:50%;
 	width:100%;
-	text-shadow: 0 0 10px #000;
+	text-shadow: 1px 1px 2px black, 0 0 25px #fff, 0 0 5px #fff;
 }
 .navbar-inverse {
 	background-color:transparent;
@@ -321,7 +321,7 @@ footer .img-responsive{
 	height:auto;
 }
 .about_inner{
-	   background: rgba(0,0,0,0.7);
+	   background: rgba(0,0,0,0.2);
     margin-top: 150px;
     padding: 20px;
 
