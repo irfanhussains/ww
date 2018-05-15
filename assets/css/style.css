@@ -174,6 +174,9 @@ font-size: 72px;
 }
 .how {
 	position:relative;
+	background:url(../images/how_bg.jpg);
+
+	background-size:cover;
 }
 .left-how {
 	background:url(../images/how_bg_left.png) repeat;
@@ -202,21 +205,22 @@ font-size: 72px;
 	text-align:justify;
 }
 .services {
-	background:url(../images/services_banner.jpg) right bottom no-repeat;
+	background:url(../images/services_banner.jpg) no-repeat;
 	padding:150px 0;
+	background-size:cover;
 }
 .services h1 {
 	font-size:80px;
-	color:#EA6408;
+	color:#E8CB87;
 	margin-bottom:90px;
-	border-bottom:3px #EA6408 solid;
+	border-bottom:3px #E8CB87 solid;
 }
 .services p {
-	color:#EA6408;
+	color:#E8CB87;
 	text-align:justify;
 }
 .services ul {
-	color:#EA6408;
+	color:#E8CB87;
 	font-size:20px;
 	font-weight:bold;
 	list-style:square;
@@ -267,16 +271,16 @@ font-size: 72px;
 }
 .work h1 {
 	font-size:80px;
-	color:#EA6408;
+	color:#E8CB87;
 	margin-bottom:90px;
 	border-bottom:3px #EA6408 solid;
 }
 .work p {
-	color:#EA6408;
+	color:#E8CB87;
 	text-align:justify;
 }
 .work ul {
-	color:#EA6408;
+	color:#E8CB87;
 	font-size:20px;
 	font-weight:bold;
 	list-style:square;
@@ -321,9 +325,16 @@ footer .img-responsive{
 	height:auto;
 }
 .about_inner{
-	   background: rgba(0,0,0,0.2);
+	   background: rgba(0,0,0,0.4);
     margin-top: 150px;
     padding: 20px;
+
+}
+.services_detail{
+		background:url(../images/services_detail.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	height:auto;
 
 }
 .project_detail{
