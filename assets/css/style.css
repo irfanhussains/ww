@@ -7,7 +7,8 @@ src: local('Tw Cen MT'), url('../fonts/Tw Cen MT.woff') format('woff');
 }
 body {
 /*		font-family: 'Montserrat', sans-serif;*/
-	font-family:'Tw Cen MT';
+/*	font-family:'Tw Cen MT';*/
+	font-family:Verdana, Geneva, sans-serif;
 	font-size:14px;
 	color:#000;
 }
@@ -31,11 +32,11 @@ a, a:hover {
     color:#fff;
 }
 h1 {
-	font-size:72px;
+	font-size:56px;
 
 }
 p {
-	font-size:20px;
+	font-size:18px;
 	text-align:justify;
 }
 header{
@@ -211,7 +212,7 @@ font-size: 72px;
 .services h1 {
 	font-size:80px;
 	color:#fff;
-	margin-bottom:90px;
+	margin-bottom:20px;
 	border-bottom:3px #fff solid;
 }
 .services p {
@@ -271,7 +272,7 @@ font-size: 72px;
 .work h1 {
 	font-size:80px;
 	color:#fff;
-	margin-bottom:90px;
+	margin-bottom:20px;
 	border-bottom:3px #fff solid;
 }
 .work p {
