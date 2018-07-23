@@ -9,7 +9,7 @@ body {
 /*		font-family: 'Montserrat', sans-serif;*/
 /*	font-family:'Tw Cen MT';*/
 	font-family:Verdana, Geneva, sans-serif;
-	font-size:14px;
+	font-size:16px;
 	color:#000;
 }
 a, a:hover {
@@ -36,7 +36,7 @@ h1 {
 
 }
 p {
-	font-size:18px;
+	font-size:16px;
 	text-align:justify;
 }
 header{
@@ -221,7 +221,7 @@ font-size: 72px;
 }
 .services ul {
 	color:#fff;
-	font-size:20px;
+	font-size:16px;
 	font-weight:bold;
 	list-style:square;
 	font-style:italic;
@@ -281,7 +281,7 @@ font-size: 72px;
 }
 .work ul {
 	color:#fff;
-	font-size:20px;
+	font-size:16px;
 	font-weight:bold;
 	list-style:square;
 	font-style:italic;
@@ -325,13 +325,13 @@ footer .img-responsive{
 	height:auto;
 }
 .about_inner{
-	   background: rgba(0,0,0,0.4);
+	   background: rgba(0,0,0,0.6);
     margin-top: 150px;
     padding: 20px;
 
 }
 .black_trans_inner{
-   background: rgba(0,0,0,0.4);
+   background: rgba(0,0,0,0.6);
     padding: 20px;
 
 }
@@ -356,7 +356,7 @@ footer .img-responsive{
 	color:#fff;
 	font-size:18px;
 	margin-bottom:10px;
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.6);
     padding: 20px;
 }
 .project_detail img{
@@ -368,10 +368,10 @@ footer .img-responsive{
 	background-attachment:fixed;
 	height:auto;
 }
-.career_detail .inner{
-	background: rgba(0,0,0,0.2);
-    margin-top: 150px;
+.career_detail .inner{	background: rgba(0,0,0,0.6);
+    margin-top: 80px;
     padding: 20px;
+    margin-bottom: 140px;
 
 }
 .career_detail p{
@@ -383,8 +383,7 @@ footer .img-responsive{
 	background-attachment:fixed;
 	height:auto;
 }
-.contant_detail .inner{
-	background: rgba(0,0,0,0.2);
+.contant_detail .inner{	background: rgba(0,0,0,0.6);
     padding: 20px;
 	text-align:right;
 
@@ -416,7 +415,7 @@ footer .img-responsive{
     bottom: 0;
     right: 0;
     background: inherit;
-    box-shadow: inset 0 0 0 300px rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 0 300px rgba(0,0,0,0.6);
     filter: blur(10px);
 }
 .form-control {
@@ -426,8 +425,7 @@ footer .img-responsive{
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #fff;
-    background: rgba(0,0,0,0.2);
+    color: #fff;	background: rgba(0,0,0,0.6);
     /* background-image: none; */
     border:0;
     border-radius: 0;
@@ -454,7 +452,7 @@ footer .img-responsive{
 }
 .modal-footer .btn {
     color: #fff;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.6);
     border-color: transparent;
     border-radius: 0;
 }
