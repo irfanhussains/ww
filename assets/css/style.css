@@ -458,6 +458,12 @@ footer .img-responsive{
 }
 
 @media (max-width: 768px){
+	h1, .about h1, .services h1, .clients h1, .work h1 {
+		font-size: 36px;
+	}
+	p {
+    font-size: 14px;
+	}
 	section{
 		height:auto;
 	}
@@ -468,4 +474,9 @@ footer .img-responsive{
     position: relative;
 	background:url(../images/how_bg_right.png);
 	}
+	.modal-dialog {
+		width: 100%;
+		margin: 20% 0 0 0;
+	 }
+
 }
